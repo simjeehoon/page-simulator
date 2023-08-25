@@ -22,7 +22,7 @@ Page Simulation
 - 프레임 개수는 **3부터 10까지**의 제한된 범위 내에서 사용자가 직접 설정한다.
 - ESC 알고리즘의 RW 비트는 페이지 스트링과 마찬가지로 파일로부터 읽거나 임의로 생성할 수 있다.
 ---
-<center><img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/out_ex_pagesimul.png?raw=true" title="출력예시" alt="image01"></img><br/></center>
+<center><img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/out_ex_pagesimul.png?raw=true" title="출력예시" alt="image01"></img><br/></center>
 * 시뮬레이션 결과는 stdout과 output 파일로 출력된다. 테이블 형태로 출력되는데, 각 열에는 페이지 프레임이, 행은 요구 페이지와 변화된 프레임 상태, 페이지 폴트 여부가 출력된다. 마지막 줄에는 총 페이지 폴트 횟수가 출력된다.
 
 ## 3. 알고리즘 설명
@@ -45,7 +45,7 @@ Page Simulation
 ---
 
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image01.png?raw=true" title="이미지1" alt="image01"></img></center>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image01.png?raw=true" title="이미지1" alt="image01"></img></center>
 
 <center>(예시 그림) 교체 전 프레임에서 2가 가장 나중에 사용되므로 2를 교체한다.</center>
 
@@ -95,7 +95,7 @@ Optimal 구현방식은 명품 운영체제(황기태 저)를 참고하였다.
 
 ---
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image02.png?raw=true" title="이미지2" alt="image02"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image02.png?raw=true" title="이미지2" alt="image02"></img>
 (예시 그림) 6을 프레임에 배치하려는 상황에서 큐에 있는 프레임 번호 0을 확인하고,
 이것을 다시 큐에 삽입하게 된다. 따라서 0번째 프레임은 교체 대상이 된다.
 </center>
@@ -136,7 +136,7 @@ FIFO 구현방식은 명품 운영체제(황기태 저)를 참고하였다.
 
 ---
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image03.png?raw=true" title="이미지3" alt="image03"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image03.png?raw=true" title="이미지3" alt="image03"></img>
 
 (예시 그림) 6을 프레임에 배치하려는 상황에서 스택에 있는 프레임 번호 3을 확인하고,
 이것을 다시 스택에 삽입하게 된다. 따라서 3번째 프레임은 교체 대상이 된다.
@@ -180,7 +180,7 @@ LIFO의 구현은 gatevidyalay 사이트
 
 ---
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image04.png?raw=true" title="이미지4" alt="image04"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image04.png?raw=true" title="이미지4" alt="image04"></img>
 
 (예시 그림)
 </center>
@@ -194,7 +194,7 @@ LIFO의 구현은 gatevidyalay 사이트
 
 ---
 <center> 
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image05.png?raw=true" title="이미지5" alt="image05"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image05.png?raw=true" title="이미지5" alt="image05"></img>
 
 (예시 그림)
 </center>
@@ -246,7 +246,7 @@ LIFO의 구현은 gatevidyalay 사이트
 ---
 
 <center> 
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image06.png?raw=true" title="이미지6" alt="image06"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image06.png?raw=true" title="이미지6" alt="image06"></img>
 
 (예시 그림)
 </center>
@@ -296,7 +296,7 @@ LIFO의 구현은 gatevidyalay 사이트
 
 ---
 <center> 
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image07.png?raw=true" title="이미지7" alt="image07"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image07.png?raw=true" title="이미지7" alt="image07"></img>
 
 (ESC의 교체 과정 중 포인터가 페이지를 가리킬 때 R, W 비트 변경 방법)
 
@@ -309,7 +309,7 @@ LIFO의 구현은 gatevidyalay 사이트
 
 ---
 <center> 
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image08.png?raw=true" title="이미지8" alt="image08"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image08.png?raw=true" title="이미지8" alt="image08"></img>
 (예시 그림) 프레임에서 좌측은 RW 비트를 의미함.
 
 ---
@@ -376,7 +376,7 @@ LIFO의 구현은 gatevidyalay 사이트
 
 ---
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/maker.png?raw=true" title="maker" alt="maker"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/maker.png?raw=true" title="maker" alt="maker"></img>
 </center>
 
 ---
@@ -386,7 +386,7 @@ LIFO의 구현은 gatevidyalay 사이트
 ### 2. simulator
 
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image10.png?raw=true" title="이미지10" alt="image10"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image10.png?raw=true" title="이미지10" alt="image10"></img>
 </center>
 
  simulator를 실행하면 다음과 같이 알고리즘을 선택하는 메뉴가 나온다. 수행 방법은 다음과 같이 3가지가 
@@ -400,7 +400,7 @@ LIFO의 구현은 gatevidyalay 사이트
  1의 경우 알고리즘 번호를 스페이스로 구분하여 입력하면 된다. 2와 3의 경우에는 각각 8 혹은 0을 입력하면 된다. 입력 오류가 발생하면 아래와 같이 에러 메시지가 출력된다.
 
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image11.png?raw=true?raw=true" title="wrong input" alt="image_wrong"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image11.png?raw=true?raw=true" title="wrong input" alt="image_wrong"></img>
 </center>
 
 ---
@@ -408,7 +408,7 @@ LIFO의 구현은 gatevidyalay 사이트
 정상적으로 입력하였다면 페이지 프레임의 개수를 입력하는 화면이 출력된다. 3부터 10까지의 정수를 입력하면 된다.
 
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image12.png?raw=true" title="12" alt="12"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image12.png?raw=true" title="12" alt="12"></img>
 </center>
 
 잘못 입력하면 위와 같이 출력된다.
@@ -417,7 +417,7 @@ LIFO의 구현은 gatevidyalay 사이트
 
 
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image13.png?raw=true" title="13" alt="13"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image13.png?raw=true" title="13" alt="13"></img>
 </center>
 
 정상적으로 입력하면 데이터 입력 방식을 선택하는 화면이 나온다. 1을 입력하면 길이 500의 페이지 스트링이 임의로 생성되며, 2를 입력하면 input 파일로부터 페이지 스트링을 읽어온다.
@@ -425,7 +425,7 @@ LIFO의 구현은 gatevidyalay 사이트
 ---
 
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image14.png?raw=true" title="14" alt="14"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image14.png?raw=true" title="14" alt="14"></img>
 </center>
 
 알고리즘 중 ESC가 포함되어 있다면 위와 같은 화면이 나온다. 이것도 마찬가지로 1을 입력하면 길이 500의 비트열이 임의로 생성되며, 2를 입력하면 bitinput으로부터 비트열을 읽어온다.
@@ -433,14 +433,14 @@ LIFO의 구현은 gatevidyalay 사이트
 ---
 
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image15.png?raw=true" title="15" alt="15"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image15.png?raw=true" title="15" alt="15"></img>
 </center>
 
 마지막으로 시뮬레이션을 진행할 페이지 스트링과 비트가 확인차 출력된다. y를 입력하면 시뮬레이션을 진행하고, n을 입력하면 취소한다. 이외의 입력은 사용자로부터 재입력을 요구한다.
 
 ---
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/print_all.png?raw=true" title="all" alt="all"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/print_all.png?raw=true" title="all" alt="all"></img>
 </center>
 
   알고리즘 개수만큼 시뮬레이션 결과가 출력된다. 시뮬레이션 결과는 테이블 형태로 시각화하였다. 
@@ -455,7 +455,7 @@ LIFO의 구현은 gatevidyalay 사이트
 
 
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image16.png?raw=true" title="16" alt="16"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image16.png?raw=true" title="16" alt="16"></img>
 </center>
 
  maker로 input과 bitinput을 만들고, 모든 알고리즘의 시뮬레이션을 출력하였다.
@@ -463,11 +463,11 @@ LIFO의 구현은 gatevidyalay 사이트
 ---
 
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image17.png?raw=true" title="17" alt="17"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image17.png?raw=true" title="17" alt="17"></img>
 </center>
  
 <center>
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/image18.png?raw=true" title="18" alt="18"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/image18.png?raw=true" title="18" alt="18"></img>
 
  시뮬레이션이 성공적으로 이루어진 것을 확인할 수 있었다.
 
@@ -479,7 +479,7 @@ LIFO의 구현은 gatevidyalay 사이트
 
 <center>
 
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/statistics.png?raw=true" title="statistics" alt="statistics"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/statistics.png?raw=true" title="statistics" alt="statistics"></img>
 
 (진한 녹색일수록 우수한 성능, 진한 빨간색일수록 좋지 못한 성능을 의미한다.)
 
@@ -500,7 +500,7 @@ LIFO의 구현은 gatevidyalay 사이트
 
 <center>
 
-<img src="https://github.com/simjeehoon/page-simulator/blob/master/readmeimg/pagefault_table.png?raw=true" title="pf_table" alt="pf_table"></img>
+<img src="https://github.com/simjeehoon/src_repository/blob/master/page-simulator/master/pagefault_table.png?raw=true" title="pf_table" alt="pf_table"></img>
 
 </center>
 
