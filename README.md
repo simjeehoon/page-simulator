@@ -53,7 +53,7 @@ Page Simulation
 Optimal 구현방식은 명품 운영체제(황기태 저)를 참고하였다.
   
 #### (2) pseudo code
-```
+```py
     page_string: 페이지 스트링
     frame: 프레임
     for new_page in page_string: # 페이지 스트링에서 각 페이지 번호를 불러옴
@@ -105,7 +105,7 @@ Optimal 구현방식은 명품 운영체제(황기태 저)를 참고하였다.
 FIFO 구현방식은 명품 운영체제(황기태 저)를 참고하였다.
 
 #### (2) pseudo code
-```
+```py
     page_string: 페이지 스트링
     frame: 프레임
     queue: 큐
@@ -149,7 +149,7 @@ LIFO의 구현은 gatevidyalay 사이트
 
 
 #### (2) pseudo code
-```
+```py
     page_string: 페이지 스트링
     frame: 프레임
     stack: 스택
@@ -207,7 +207,7 @@ LIFO의 구현은 gatevidyalay 사이트
 2. https://en.wikipedia.org/wiki/Least_frequently_used
    
 #### (2) pseudo code
-```
+```py
     page_string: 페이지 스트링
     frame: 프레임
     ref_cnt: 참조 횟수 배열
@@ -254,7 +254,7 @@ LIFO의 구현은 gatevidyalay 사이트
 ---
 
 #### (2) pseudo code
-```
+```py
     page_string: 페이지 스트링
     frame: 프레임
     clock: 참조 횟수 배열
@@ -320,7 +320,7 @@ LIFO의 구현은 gatevidyalay 사이트
 
 #### (2) pseudo code
 
-```
+```py
     page_string: 페이지 스트링 및 해당 페이지의 쓰기 요청 여부. 
     frame: 프레임
     bit: reference bit과 dirty(write) bit를 저장할 배열
